@@ -1,0 +1,19 @@
+{
+    "api": {
+        "port": "8080",
+        "clientcert": "../keys/client.pem",
+        "clientkey": "../keys/client.key",
+        "servercert": "../keys/server.pem",
+        "serverkey": "../keys/server.key",
+        "releasemode": "debug"
+    },
+    "database": {
+        "username": "ssluser",
+        "password": "REDACTED",
+        "schema": "information_schema",
+        "options": {
+            "tls": "skip-verify",
+            "timeout": "3s"
+        }
+    }
+}

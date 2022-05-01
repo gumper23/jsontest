@@ -1,5 +1,6 @@
 {
     "api": {
+        "host": "127.0.0.1",
         "port": "8080",
         "clientcert": "../keys/client.pem",
         "clientkey": "../keys/client.key",

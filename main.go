@@ -13,7 +13,7 @@ func main() {
 	fmt.Printf("%+v\n", config)
 
 	dbconfig := config.Database
-	fmt.Printf("%+v\n", dbconfig)
+	fmt.Printf("%+v\n\n", dbconfig)
 
 	apiconfig := config.API
 	fmt.Printf("%+v\n", apiconfig)
